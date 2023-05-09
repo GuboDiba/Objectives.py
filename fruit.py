@@ -24,7 +24,7 @@ class Fruits:
          return (f"i bought {self.color} {self.taste} {self.name} at {price} shillings")
      
      def fruits_expiry_date(self,date):
-         return(f"my {self.taste} {self.color} {self.name} will expire on {date} may 202")
+         return(f"my {self.taste} {self.color} {self.name} will expire on {date} may 2022")
      
-     def fruits_shape(self):
-         return(f"")
+     def fruits_shape(self,shape):
+         return(f"i bought {self.taste} {self.color} {shape} {self.name} yesterday")

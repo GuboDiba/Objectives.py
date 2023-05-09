@@ -5,11 +5,11 @@ class Account:
         self.account_number = account_number
         self.branch = branch
         
-     def bank_deposit(self):
-         return(f"Dear {self.account_name} your deposit to account number{self.account_number} {self.branch} branch is successful")
+     def bank_deposit(self,deposit):
+         return(f"Dear {self.account_name} your deposit of {deposit} shilllings  to account number{self.account_number} {self.branch} branch is successful")
      
-k    def bank_withraw(self):
-         return(f"")
+     def bank_withraw(self,withdraw):
+         return(f"hello your withdraw {withdraw} from account {self.account_name} account number {self.account_number} {self.branch}")
      
-     def display_balance(self):
-         return(f"")
+     def display_balance(self,balance):
+         return(f"Hello {self.account_name} your account balance is {balance} shillings")
