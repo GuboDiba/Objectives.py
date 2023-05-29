@@ -18,7 +18,7 @@ class Fruits:
      def __init__(self,name,color,taste):
         self.name = name                      
         self.color = color
-        self.taste = taste
+        self.taste =taste
         
      def fruits_price(self,price):
          return (f"i bought {self.color} {self.taste} {self.name} at {price} shillings")
